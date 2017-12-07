@@ -1,0 +1,50 @@
+h1 {
+    color: darkgreen;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+#float {
+    float: left;
+    width: 265px;
+    padding-right: 10px;
+}
+
+p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topMain {
+    padding-bottom: 2px;
+}
+
+.rightTopPara {
+    padding-top: 20px;
+    font-size: 27px;
+}
+
+.bottomPara {
+    padding-top: 0px;
+}
+
+.bottomMain {
+    padding-top: 0px;
+    font-size: 23px;
+}
+
+#upperCase {
+    text-transform: uppercase;
+}
+
+#magicUndie:hover {
+    text-decoration: underline;
+}
