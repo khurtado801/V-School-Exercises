@@ -1,5 +1,9 @@
+h1 {
+    color: rgb(26, 28, 46);
+}
+
 body {
-    background-color: darkgray
+    background-color: rgb(80, 82, 104);
 }
 
 .fixed-nav-bar {
@@ -56,6 +60,18 @@ iframe {
     border-right: black 3px solid;
     border-left: black 3px solid;
     border-bottom: black 5px solid;
+}
+
+img {
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+.innerBody {
+    background-color: lightgrey;
 }
 
 
