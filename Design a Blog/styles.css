@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(161, 165, 168)
+    background-color: darkgray
 }
 
 .fixed-nav-bar {
@@ -12,6 +12,23 @@ body {
     height: 50px;
 }
 
+iframe {
+    width: 680px;
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-right: black 3px solid;
+    border-left: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
 .center {
     margin: auto;
     width: 60%;
@@ -20,4 +37,75 @@ body {
 
 .content {
     margin-top: 20px;
+}
+
+.button {
+    background-color: lightgrey;
+    color: rgb(14, 5, 5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-right: black 3px solid;
+    border-left: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
+
+/* Example responsive navigation menu  */
+
+.fixed-nav-bar li,
+.fixed-nav-bar a {
+    height: 50px;
+    line-height: 20px;
+    width: 200px;
+}
+
+.menu {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu a,
+.menu a:visited {
+    color: #ffffff;
+}
+
+.menu a:hover,
+.menu a:target {
+    color: #ebebeb;
+}
+
+.menu-items {
+    display: inline-block;
+    margin: 20px;
+}
+
+.sitename {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+a.sitename,
+a:visited.sitename {
+    color: #e0e0e0;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu-items a {
+    text-decoration: none;
 }
