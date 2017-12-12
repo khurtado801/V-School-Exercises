@@ -74,9 +74,6 @@ img {
     background-color: lightgrey;
 }
 
-
-/* Example responsive navigation menu  */
-
 .fixed-nav-bar li,
 .fixed-nav-bar a {
     height: 50px;

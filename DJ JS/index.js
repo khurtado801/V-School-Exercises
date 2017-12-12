@@ -1,21 +1,37 @@
 document.getElementById("main").onmousedown = function() { mouseDown() };
 document.getElementById("main").onmouseup = function() { mouseUp() };
 
+var main = document.getElementById("main");
+main.onmouseover = function() {
+    main.style.backgroundColor = "blue";
+};
 
-/*
-function mouseDown() {
-    document.getElementById("main").innerHTML = "The mouse button is held down.";
-}
+main.onmousedown = function() {
+    main.style.backgroundColor = "red";
+};
 
-function mouseUp() {
-    document.getElementById("main").innerHTML = "You released the mouse button.";
-}
+main.onmouseup = function() {
+    main.style.backgroundColor = "yellow";
+};
 
-function mouseDouble() {
-    document.getElementById("demo").innerHTML = "Hello World";
-}
-*/
+main.ondblclick = function() {
+    main.style.backgroundColor = "green";
+};
 
-function myFunction() {
-    document.getElementById("inner").style.color = "green";
-}
+window.onscroll = function() {
+    main.style.backgroundColor = "orange";
+};
+
+window.onkeypress = function(e) {
+    if (e.keyCode === 98) {
+        main.style.backgroundColor = "blue";
+    } else if (e.keyCode === 103) {
+        main.style.backgroundColor = "green";
+    } else if (e.keyCode === 114) {
+        main.style.backgroundColor = "red";
+    } else if (e.keyCode === 121) {
+        main.style.backgroundColor = "yellow";
+    } else if (e.keyCode === 111) {
+        main.style.backgroundColor = "orange";
+    }
+};

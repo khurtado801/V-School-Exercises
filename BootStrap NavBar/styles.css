@@ -1,3 +1,11 @@
+h1 {
+    color: rgb(26, 28, 46);
+}
+
+body {
+    background-color: rgb(80, 82, 104);
+}
+
 .fixed-nav-bar {
     position: fixed;
     top: 0;
@@ -8,19 +16,32 @@
     height: 50px;
 }
 
-h1 {
+iframe {
+    width: 680px;
+    width: 600px;
+    height: 500px;
     margin-top: 100px;
-    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-right: black 3px solid;
+    border-left: black 3px solid;
+    border-bottom: black 5px solid;
 }
 
-body {
-    background-color: gainsboro
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
 
 .button {
-    background-color: dodgerblue;
-    border: none;
-    color: white;
+    background-color: lightgrey;
+    color: rgb(14, 5, 5);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -31,21 +52,25 @@ body {
     border-radius: 12px;
     border-radius: 12px;
     border-radius: 12px;
-    border-top: blue 1px solid;
-    border-right: blue 2px solid;
-    border-left: blue 2px solid;
-    border-bottom: blue 4px solid;
+    border-top: black 1px solid;
+    border-right: black 3px solid;
+    border-left: black 3px solid;
+    border-bottom: black 5px solid;
 }
 
-
-.center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
+img {
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
 }
 
-.content {
-    margin-top: 20px;
+.fixed-nav-bar li,
+.fixed-nav-bar a {
+    height: 50px;
+    line-height: 20px;
+    width: 200px;
 }
 
 .menu {
@@ -54,7 +79,28 @@ body {
     margin: 0 auto;
 }
 
-.menu a,
-.menu a:visited {
-    color: #ffffff;
+.menu a:hover,
+.menu a:target {
+    color: #ebebeb;
+}
+
+.menu-items {
+    display: inline-block;
+    margin: 20px;
+}
+
+.sitename {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu-items a {
+    text-decoration: none;
 }
