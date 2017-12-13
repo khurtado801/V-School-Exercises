@@ -3,44 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Travel Form</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
-    <form id="form">
-        <input id="name" type="text" placeholder="name">
-        <div>
-            <span gender>Male</span>
-            <input name="gender" value="Male" type="radio"></label>
-            <span gender>Female</span>
-            <input name="gender" value="Female" type="radio"></label>
-        </div>
 
-        <!--
-                    <select>
-                    <option value="Seattle" id="OptDestinationSeattle">Seattle</option>
-                    <option value="New York" id="OptDestinationNewYork">New York</option>
-                    <option value="California" id="OptDestinationSeattle">California</option>
-                </select>
-        <br>Please select any dietary restrictions you have:<br>
-        <input type="checkbox" id="ChkDietaryVeg">Vegetarian
-        <input type="checkbox" id="ChkDietaryKosher">Kosher
-        <input type="checkbox" id="ChkDietaryLactose">Lactose free
+    <form id="myForm" name="myForm">
+        First name:
+        <input type="text" name="fname"> Last name:
+        <input type="text" name="lname"> Age:
+        <input type="number" name="age">
+        <br> Gender:
         <br>
-        <br>Please submit your fisnihed form:<br>
-        <input type="button" value="submit" onclick="myFunction('FirstName', 'LastName', 'Age', 'Gender')" name="SubmitForm" />
-          <input type="button" value="submit" onsubmit="onsubmit('FirstName', 'LastName', 'Age', 'Gender')" name="SubmitForm" />
-        -->
-
-        <button type="submit">Submit</button>
+        <input type="radio" name="gender" value="female">Female</label>
+        <input type="radio" name="gender" value="male">Male</label>
+        <br> Destination:
+        <br>
+        <select name="destination">
+            <option value="1">... </option>
+            <option value="Seattle Washington">Washington, Seattle</option>
+            <option value="Denver Colorado">Colorado, Denver</option>
+            <option value="San Francisco California">California, San Francisco</option>
+        </select>
+        <br> Dietary Restrictions:
+        <br>
+        <input type="checkbox" name="diet" value="none">None<br>
+        <input type="checkbox" name="diet" value="Kosher">Kosher<br>
+        <input type="checkbox" name="diet" value="Vegetarian">Vegetarian<br>
+        <input type="checkbox" name="diet" value="Dairy Free">Dairy Free
+        <br>
+        <br>
+        <input id="button" type="submit" value="SUBMIT">
     </form>
-
-    <script src="index.js"></script>
+    </div>
 </body>
+<script src="app.js"></script>
 
 </html>
