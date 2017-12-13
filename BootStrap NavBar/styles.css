@@ -16,28 +16,7 @@ body {
     height: 50px;
 }
 
-iframe {
-    width: 680px;
-    width: 600px;
-    height: 500px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    border-radius: 12px;
-    border-radius: 12px;
-    border-radius: 12px;
-    border-radius: 12px;
-    border-radius: 12px;
-    border-top: black 1px solid;
-    border-right: black 3px solid;
-    border-left: black 3px solid;
-    border-bottom: black 5px solid;
-}
 
-.center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-}
 
 .button {
     background-color: lightgrey;
@@ -58,13 +37,7 @@ iframe {
     border-bottom: black 5px solid;
 }
 
-img {
-    float: left;
-    padding-right: 5px;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-}
+
 
 .fixed-nav-bar li,
 .fixed-nav-bar a {
