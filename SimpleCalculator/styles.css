@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+#add {
+    height: 150x;
+    padding-top: 100px;
+    padding-left: 5px;
+    background: rgb(54, 25, 25);
+    /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
+input {
+    height: 20px;
+    vertical-align: middle;
+    align-self: center;
+}
+
+#subtract {
+    height: 200px;
+    padding-top: 100px;
+    background: rgb(54, 25, 25);
+    /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
+#multiply {
+    height: 200px;
+    padding-top: 100px;
+    background: rgb(54, 25, 25);
+    /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
+#addText,
+subText {
+    background: rgb(54, 25, 25);
+    /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
+#subText {
+    background: rgb(54, 25, 25);
+    /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 1px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
+#mltText {
+    background: rgb(54, 25, 25);
+    /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    border-radius: 12px;
+    border-radius: 12px;
+    border-radius: 12px;
+    border-top: black 3px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+    border-bottom: black 5px solid;
+}
+
+P {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#btn {}

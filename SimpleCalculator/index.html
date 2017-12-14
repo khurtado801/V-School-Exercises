@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="add">
+        <p>ADDITION CALCULATOR</p>
+        <div id="addText">
+            <input id="num1" type="number">
+            <input id="num2" type="number">
+        </div>
+        <button type="submit" onclick="addMath()">Add</button>
+        <p id="sum"></p>
+    </div>
+    <div id="subtract">
+        <p>SUBTRACTION CALCULATOR</p>
+        <div id="subText">
+            <input id="firstMinuend" type="number">
+            <input id="secondMinuend" type="number">
+        </div>
+        <div id="subBtn">
+            <button type="submit" onclick="subMath()">Subtract</button>
+        </div>
+        <p id="difference"></p>
+
+    </div>
+    <div id="multiply">
+        <p>MULTIPLICATION CALCULATOR</p>
+        <div id="mltText">
+            <input id="firstFactor" type="number">
+            <input id="secondFactor" type="number">
+        </div>
+        <button type="submit" onclick="mltMath()">Multiply</button>
+        <p id="product"></p>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
