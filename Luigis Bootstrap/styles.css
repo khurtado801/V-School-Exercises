@@ -2,7 +2,7 @@
     font-family: 'Super Mario Bros.';
     font-style: normal;
     font-weight: normal;
-    src: local('Super Mario Bros..ttf'), url('Super Mario Bros..woff') format('truetype');
+    src: local('Super Mario Bros..ttf'), url(SuperMario256.ttf) format('truetype');
 }
 
 h3 {
