@@ -1,51 +1,66 @@
 @font-face {
-    font-family: 'Super Mario Bros.';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Super Mario Bros..ttf'), url(SuperMario256.ttf) format('truetype');
+    font-family: superMario;
+    /*font-style: normal;
+    font-weight: normal;*/
+    src: url(SuperMario256.ttf) format('truetype');
 }
 
-h3 {
-    font-family: 'Super Mario Bros.';
-    font-size: 60px;
+h1 {
+    font-family: superMario;
+    font-size: 55px;
     padding: 20px;
-}
-
-h4 {
-    font-family: 'Super Mario Bros.';
-    font-size: 40px;
     color: red;
 }
 
-#words {
+h2 {
+    font-family: superMario;
+    font-size: 45px;
+    /*padding: 20px;*/
+    color: red;
+}
+
+h3 {
+    font-family: superMario;
+    font-size: 50px;
+    padding: 20px;
+    color: red;
+}
+
+h4 {
+    font-family: superMario;
+    font-size: 60px;
+    color: red;
+}
+
+#secondRate {
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: red;
     font-weight: 800;
 }
 
-#first {
+#top {
     height: 130px;
     background-color: yellow;
 }
 
-#second {
+#luigiImage {
     height: 350px;
     background-color: red;
     padding: 15px;
 }
 
-#third {
+#aboutMe {
     height: 200px;
     background-color: white;
 }
 
-#fourth {
+#mushroomBanner {
     height: 100px;
     background-color: yellow;
 }
 
 #mushroom {
     width: 90px;
-    padding: 15px;
+    padding: 10px;
 }
