@@ -1,28 +1,4 @@
-/*
-
-var form = document.getElementByID("airline-form");
-var submit = document.getElementByID(submit);
-var query = document.querySelector;
-
-function getCheckedValue(radioObj) {
-    if (!radioObj)
-        return "";
-    var radioLength = radioObj.length;
-    if (radioLength == undefined)
-        if (radioObj.checked)
-            return radioObj.value;
-        else
-            return "";
-    for (var i = 0; i < radioLength; i++) {
-        if (radioObj[i].checked) {
-            return radioObj[i].value;
-        }
-    }
-    return "";
-}
-*/
-
-function formAlert() {
+function getInfo() {
     document.getElementById("button").addEventListener("click", function() {
         var airlineForm = document.getElementById("airlineForm");
         var firstName = airlineForm.fname.value;
@@ -32,7 +8,7 @@ function formAlert() {
         var destination = airlineForm.destination.value;
         var diet = airlineForm.diet;
         var txt = "";
-        var conter = 0;
+        var counter = 0;
         for (var i = 0; i < diet.length; i++) {
             if (diet[i].checked && counter === 0) {
                 txt = diet[i].value;
@@ -54,24 +30,4 @@ function formAlert() {
     });
 }
 
-formAlert();
-
-
-/*
-if (form.elements['vegan'].checked) {
-    var diet = pop(document.getElementById("vegan").value);
-}
-if (form.elements['gluten'].checked) {
-    diet.push(document.getElementById('gluten').value);
-}
-if (form.elements['paleo'].checked) {
-    diet.push(document.getElementById('paleo').value);
-}
-
-
-alert("First Name: " + firstName + "\nLast Name: " + lastName + "\nAge: " + age + "\nGender: " + gender + "\nTravel Location: " + location + "\nDiet: " + diet + "\nAwesome, now if you die, it won't be an accident..");
-}
-
-
-submit.addEventListener("click", formAlert);
-*/
+getInfo();
