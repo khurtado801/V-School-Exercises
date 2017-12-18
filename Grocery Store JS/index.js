@@ -9,4 +9,8 @@ var shopper = {
         console.log("\nName: " + shopper.firstName + " " + shopper.lastName + "\n" + "Age: " + shopper.age + "\n" + "Access to money: " + shopper.money + "\nDisplay cart contents: " + "\n" + shopper.groceryCart.toString() + "\n");
     }
 };
-shopper.metaDetails();
+shopper.metaDetails()
+
+var reg = "codefffcopeskdf";
+reg.match(/co.*?e/g);
+
