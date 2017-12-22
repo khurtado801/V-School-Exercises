@@ -1,0 +1,557 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                width="899" height="1196">
+                
+            <g>
+                <rect x="50" y="80"
+            width="252.79999999999998" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="80" x2="60" y2="110"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="292.79999999999995" y1="80" x2="292.79999999999995" y2="110"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>sum = function(num1, num2)</title>
+            <text x="75" y="100"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="100">sum = function(num1, num2)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="128.5"
+            width="217.2" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var result = num1 + num2</title>
+            <text x="102" y="148.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="148.5">var result = num1 + num2</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="177"
+            width="232.79999999999998" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(result + &quot;\n&quot;)</title>
+            <text x="102" y="197"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="197">console.log(result + &quot;\n&quot;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="225.5"
+            width="100.2" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>sum(2, 2)</title>
+            <text x="65" y="245.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="245.5">sum(2, 2)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="289"
+            width="299.6" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="289" x2="60" y2="319"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="339.6" y1="289" x2="339.6" y2="319"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>max = function(num1, num2, num3)</title>
+            <text x="75" y="309"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="309">max = function(num1, num2, num3)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="337.5"
+            width="388.8" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(Math.max(num1, num2, num3) + &quot;\n&quot;)</title>
+            <text x="102" y="357.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="357.5">console.log(Math.max(num1, num2, num3) + &quot;\n&quot;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="386"
+            width="131.39999999999998" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>max(2, 20, 6)</title>
+            <text x="65" y="406"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="406">max(2, 20, 6)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="449.5"
+            width="237.2" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="449.5" x2="60" y2="479.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="277.2" y1="449.5" x2="277.2" y2="479.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>evenOdd = function(num1)</title>
+            <text x="75" y="469.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="469.5">evenOdd = function(num1)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="498"
+            width="193.79999999999998" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var result = num1 % 2</title>
+            <text x="102" y="518"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="518">var result = num1 % 2</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="117" y="561.5"
+            width="169.2" height="30"
+            rx="3" ry="3"
+            style="fill:#ce93d8; stroke:#444; stroke-width:1" />                
+            <polygon points="87,576.5 117,546.5 147,576.5 117,606.5"
+            style="fill:#ce93d8; stroke:#444; stroke-width:1" />
+            <title>(result !== 1)</title>
+            <text x="162" y="581.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="162" y="581.5">(result !== 1)</tspan>
+            </text>
+            
+            <text x="109.2" y="581.5"
+        font-family="monospace" font-size="13" fill="#222">if</text> <text x="124.8" y="608.45"
+        font-family="monospace" font-size="13" fill="#222">+</text> <text x="290.09999999999997" y="574.55"
+        font-family="monospace" font-size="13" fill="#222">-</text>
+        </g>
+                <g>
+                   <rect x="137" y="616.5"
+            width="186" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(&apos;Even:
+&apos;)</title>
+            <text x="152" y="636.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="636.5">console.log(&apos;Even:
+&apos;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="383" y="616.5"
+            width="178.2" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(&apos;Odd:
+&apos;)</title>
+            <text x="398" y="636.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="398" y="636.5">console.log(&apos;Odd:
+&apos;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="666.5"
+            width="108" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>evenOdd(3)</title>
+            <text x="65" y="686.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="686.5">evenOdd(3)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="730"
+            width="307.4" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="730" x2="60" y2="760"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="347.4" y1="730" x2="347.4" y2="760"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>stringTheory = function(inputStr)</title>
+            <text x="75" y="750"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="750">stringTheory = function(inputStr)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="778.5"
+            width="225" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var str = inputStr.length</title>
+            <text x="102" y="798.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="798.5">var str = inputStr.length</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="117" y="842"
+            width="145.8" height="30"
+            rx="3" ry="3"
+            style="fill:#ce93d8; stroke:#444; stroke-width:1" />                
+            <polygon points="87,857 117,827 147,857 117,887"
+            style="fill:#ce93d8; stroke:#444; stroke-width:1" />
+            <title>(str &lt;= 20)</title>
+            <text x="162" y="862"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="162" y="862">(str &lt;= 20)</tspan>
+            </text>
+            
+            <text x="109.2" y="862"
+        font-family="monospace" font-size="13" fill="#222">if</text> <text x="124.8" y="888.95"
+        font-family="monospace" font-size="13" fill="#222">+</text> <text x="266.7" y="855.05"
+        font-family="monospace" font-size="13" fill="#222">-</text>
+        </g>
+                <g>
+                   <rect x="137" y="897"
+            width="326.4" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var newStr = inputStr.concat(inputStr)</title>
+            <text x="152" y="917"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="917">var newStr = inputStr.concat(inputStr)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="137" y="945.5"
+            width="232.79999999999998" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(newStr + &quot;\n&quot;)</title>
+            <text x="152" y="965.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="965.5">console.log(newStr + &quot;\n&quot;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="523.4" y="897"
+            width="349.8" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var test = inputStr.substring(0, str / 2)</title>
+            <text x="538.4" y="917"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="538.4" y="917">var test = inputStr.substring(0, str / 2)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="523.4" y="945.5"
+            width="217.2" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(test + &quot;\n&quot;)</title>
+            <text x="538.4" y="965.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="538.4" y="965.5">console.log(test + &quot;\n&quot;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="995.5"
+            width="373.2" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(&apos;This string is 10 characters:&apos;)</title>
+            <text x="65" y="1015.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1015.5">console.log(&apos;This string is 10 characters:&apos;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="1044"
+            width="310.8" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>stringTheory(&apos;abcdefghijklmnopqrst&apos;)</title>
+            <text x="65" y="1064"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1064">stringTheory(&apos;abcdefghijklmnopqrst&apos;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="1092.5"
+            width="435.59999999999997" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(&apos;
+This string is more than 10 characters:&apos;)</title>
+            <text x="65" y="1112.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1112.5">console.log(&apos;
+This string is more than 10 characte...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="1141"
+            width="342" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>stringTheory(&apos;abcdefghijklmnopqrstuvff&apos;)</title>
+            <text x="65" y="1161"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1161">stringTheory(&apos;abcdefghijklmnopqrstuvff&apos;)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75"
+            width="216.6" height="24"
+            style="fill:#fff59d; stroke:#444; stroke-width:1" />
+               <circle cx="25" cy="25" r="15"
+        style="fill:#fff59d; stroke:#444; stroke-width:1" />
+               <title>Program: source module</title>
+            <text x="55" y="30"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 91 Q25 95
+                29 95
+                L42 95 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 92 L50, 95 L42, 98 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 110 L68.5 139.5 Q68.5 143.5
+                72.5 143.5
+                L79 143.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 140.5 L87, 143.5 L79, 146.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 110 L68.5 188 Q68.5 192
+                72.5 192
+                L79 192 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 189 L87, 192 L79, 195 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 236.5 Q25 240.5
+                29 240.5
+                L42 240.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 237.5 L50, 240.5 L42, 243.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 300 Q25 304
+                29 304
+                L42 304 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 301 L50, 304 L42, 307 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 319 L68.5 348.5 Q68.5 352.5
+                72.5 352.5
+                L79 352.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 349.5 L87, 352.5 L79, 355.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 397 Q25 401
+                29 401
+                L42 401 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 398 L50, 401 L42, 404 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 460.5 Q25 464.5
+                29 464.5
+                L42 464.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 461.5 L50, 464.5 L42, 467.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 479.5 L68.5 509 Q68.5 513
+                72.5 513
+                L79 513 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 510 L87, 513 L79, 516 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 479.5 L68.5 572.5 Q68.5 576.5
+                72.5 576.5
+                L79 576.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 573.5 L87, 576.5 L79, 579.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M117, 606.5 L117 627.5 Q117 631.5
+                121 631.5
+                L129 631.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M129, 628.5 L137, 631.5 L129, 634.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M286.2, 576.5 L359 576.5  Q363 576.5
+                363 580.5
+                L363 623.5 Q363 631.5
+                367 631.5
+                L375 631.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M375, 628.5 L383, 631.5 L375, 634.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 677.5 Q25 681.5
+                29 681.5
+                L42 681.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 678.5 L50, 681.5 L42, 684.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 741 Q25 745
+                29 745
+                L42 745 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 742 L50, 745 L42, 748 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 760 L68.5 789.5 Q68.5 793.5
+                72.5 793.5
+                L79 793.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 790.5 L87, 793.5 L79, 796.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 760 L68.5 853 Q68.5 857
+                72.5 857
+                L79 857 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 854 L87, 857 L79, 860 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M117, 887 L117 908 Q117 912
+                121 912
+                L129 912 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M129, 909 L137, 912 L129, 915 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M117, 887 L117 956.5 Q117 960.5
+                121 960.5
+                L129 960.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M129, 957.5 L137, 960.5 L129, 963.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M262.8, 857 L499.4 857  Q503.4 857
+                503.4 861
+                L503.4 904 Q503.4 912
+                507.4 912
+                L515.4 912 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M515.4, 909 L523.4, 912 L515.4, 915 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M262.8, 857 L499.4 857  Q503.4 857
+                503.4 861
+                L503.4 952.5 Q503.4 960.5
+                507.4 960.5
+                L515.4 960.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M515.4, 957.5 L523.4, 960.5 L515.4, 963.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 1006.5 Q25 1010.5
+                29 1010.5
+                L42 1010.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 1007.5 L50, 1010.5 L42, 1013.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 1055 Q25 1059
+                29 1059
+                L42 1059 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 1056 L50, 1059 L42, 1062 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 1103.5 Q25 1107.5
+                29 1107.5
+                L42 1107.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 1104.5 L50, 1107.5 L42, 1110.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 1152 Q25 1156
+                29 1156
+                L42 1156 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 1153 L50, 1156 L42, 1159 Z" 
+        fill="#333" />
+            </g>
+            </svg>
