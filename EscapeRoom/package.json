@@ -1,0 +1,17 @@
+{
+  "name": "EscapeRoomTest",
+  "version": "1.0.0",
+  "description": "https://coursework.vschool.io/escape-room/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.7",
+    "sweetalert": "^2.1.0"
+  },
+  "devDependencies": {}
+}
