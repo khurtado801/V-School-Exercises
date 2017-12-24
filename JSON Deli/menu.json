@@ -1,91 +1,133 @@
 {
-    "appetizers": [
-        "rocky mountain oysters",
-        "fries",
-        "salad"
-    ],
-    "cold sandwiches": [
-        "cue-ball",
-        "ham and cheese",
-        "veggie"
-    ],
-    "hot sandwiches": [
-        "rianna",
-        "drew berrymoore",
-        "jennifer lawrence"
-    ],
-    "desserts": [
-        "ice cream",
-        "cake",
-        "stuff"
-    ],
-    "drinks": [
-        "beer",
-        "bloody mary",
-        "vodka sprite"
-    ]
-}
-
-
-{
-    "appetizers": [
-        "rocky mountain oysters",
-        "fries",
-        "salad"
-    ]
-},
-
-{
-    "cold sandwiches": [
-        "Ford", "BMW", "Fiat"
-    ]
-},
-
-{
-    "hot sandwiches": [
-        "rianna",
-        "drew berrymoore",
-        "jennifer lawrence"
-    ]
-},
-
-{
-    "desserts": [
-        "ice cream",
-        "cake",
-        "stuff"
-    ]
-},
-
-{
-    "drinks": ["beer", "bloody mary", "vodka sprite"]
-}
-
-
-const person = s
-
-    
-    {
-
-{
-"name": "marcus",
-"age": 100,
-"eyeColor": "Green"
-"drinks": ["beer", "bloody mary", "vodka sprite"]
-"favoriteThings": ["red hat", "toothpicks", "parkcing", "beating Ben at foosball"]
-}
-
-{ title: "shug a bunny", description: "can't eat them", completed: false }
-
-
-{ "name":"beer", "age":30, "car":null }
-
-
-{
-    "_id": "5a21cb828e509d2c3e4a28bc",
-    "sessionId": "bob",
-    "title": "steal marcus's red cap",
-    "description": "I've been eyeing that sexy hat all day",
-    "__v": 0,
-    "completed": false
+    "appetizers": [{
+        "name": "caprese salad",
+        "ingredients": [
+            "tomatoes",
+            "mozzarella",
+            "basil",
+            "olive oil",
+            "prosciutto"
+        ],
+        "description": [
+            "Tomatoes, fresh mozzarella, and basil drizzled with a sweet balsamic reduction and olive oil"
+        ]
+    }, {
+        "name": "smoked salmon spread",
+        "ingredients": [
+            "smoked salmon",
+            "cream cheese",
+            "hot pepper",
+            "dill weed",
+            "green onions"
+        ],
+        "description": [
+            "a delicious and easy spread that always gets many compliment"
+        ]
+    }],
+    "cold sandwhiches": [{
+        "name": "club sandwich",
+        "ingredients": [
+            "mayonnaise",
+            "Dijon-style mustard",
+            "ham",
+            "lettuce",
+            "tomato",
+            "turkey"
+        ],
+        "description": [
+            "This layered sandwich is an all-American summertime special"
+        ]
+    }, {
+        "name": "turkey wrap",
+        "toppings": [
+            "flour tortilla",
+            "mayonnaise",
+            "lettuce",
+            "turkey",
+            "tomato",
+            "pickles"
+        ],
+        "description": [
+            "turkey, lettuce and tomato rolled up for quick-delicious sandwiches"
+        ]
+    }],
+    "hot sandwhiches": [{
+        "name": "cuban midnight",
+        "ingredients": [
+            "italian dressing",
+            "hoagie rolls",
+            "mustard",
+            "ham",
+            "swiss cheese",
+            "pickles",
+            "olice oil"
+        ],
+        "description": [
+            "makes a wonderful dinner sandwich because it is served hot"
+        ]
+    }, {
+        "name": "cheeseburger",
+        "ingredients": [
+            "mayonnaise",
+            "mustard",
+            "lettuce",
+            "tomato",
+            "pickles",
+            "cheese",
+            "hamburger"
+        ],
+        "description": [
+            "goes perfect with any kind of beer"
+        ]
+    }],
+    "deserts": [{
+        "name": "strawberry cheesecake",
+        "ingredients": [
+            "strawberry",
+            "graham cracker crust ",
+            "worlds best cream cheese",
+            "chocolate"
+        ],
+        "description": [
+            "goes perfect with any kind of beer"
+        ]
+    }, {
+        "name": "banana split",
+        "ingredients": [
+            "bananas",
+            "vanilla ice cream",
+            "raspberries",
+            "strawberry"
+        ],
+        "description": [
+            "worlds best banana split, just ask and I'll tell you so"
+        ]
+    }],
+    "drinks": [{
+        "name": "bloody mary",
+        "ingredients": [
+            "tomato juice",
+            "celary",
+            "vodka",
+            "horseradish",
+            "worcestershire sauce",
+            "tabasco"
+        ],
+        "description": [
+            "the gift that keeps on giving"
+        ]
+    }, {
+        "name": "skip and go naked",
+        "ingredients": [
+            "frozen orange juice",
+            "vodka",
+            "pabst blue ribbon beer",
+            "margarita mix"
+        ],
+        "garnish": [
+            "lime wedge",
+            "salt rim"
+        ],
+        "alcoholic": true
+    }]
 }
