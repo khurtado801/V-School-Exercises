@@ -19,6 +19,7 @@
 // }
 
 let clickCounter = () => {
+
     if (typeof(Storage) !== "undefined") {
         if (localStorage.clkCnt) {
             localStorage.clkCnt = Number(localStorage.clkCnt) + 1;
@@ -30,3 +31,4 @@ let clickCounter = () => {
         document.getElementById("result").innerHTML = "Your browser sucks!"
     }
 }
+localStorage.clear();
