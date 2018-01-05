@@ -1,5 +1,6 @@
-.gallery-wrapper {
+.box-wrapper {
     display: flex;
-    width: 90%;
-    margin: auto;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
 }

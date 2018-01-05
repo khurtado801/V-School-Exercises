@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    color: "black";
+    text-shadow: -1px -1px 0 rgba(250, 250, 250, 0.678), 1px -1px 0 rgba(253, 251, 251, 0.479), -1px 1px 0 rgba(252, 250, 250, 0.247), 1px 1px 0 rgba(245, 241, 241, 0.144);
+}
+
+h1,
+h2 {
+    color: "black";
+    text-shadow: -1px -1px 0 rgba(250, 250, 250, 0.678), 1px -1px 0 rgba(253, 251, 251, 0.479), -1px 1px 0 rgba(252, 250, 250, 0.247), 1px 1px 0 rgba(245, 241, 241, 0.144);
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
