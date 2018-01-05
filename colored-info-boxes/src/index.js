@@ -4,7 +4,7 @@ import App from "./App";
 
 ReactDOM.render(
     <App
-    name="My Page"
-    founder="Me"
+    name="Colored Info Boxes"
+    founder="Ken Hurtado"
     />, 
 document.getElementById("root"));

@@ -1,13 +1,30 @@
 import React, {component} from 'react';
 
+
+let contentData = [
+    {
+        caption: "OMFG SO CUUUUUUUTE",
+        author: "Mr. Catt"
+    },
+    {
+        caption: "NO WAY I JUST.... I  JUST CANT EVEN",
+        author: "Mrs. Catt"
+    },
+    {
+        caption: "Ya thats ok",
+        author: "Mr. Kitty"
+    },
+    {
+        caption: "This is unreasonably cute",
+        author: "serialKitty"
+    }
+]
+
+
 function Content(props){
     return(
         <content>
             
-            <h1>My content title</h1>
-            <h2>My content</h2>
-            <h4>My content, but smaller</h4>
-            <p>Here is some stuff in my content</p>
         </content>
     )
 }
