@@ -1,0 +1,21 @@
+.nav-wrapper {
+    overflow: hidden;
+    padding: 1em;
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+a:visited {
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 2em;
+    color: #000
+}
+
+@media (min-width: 480px) {
+    display: block;
+}
