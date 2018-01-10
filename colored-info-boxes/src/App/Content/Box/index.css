@@ -1,4 +1,4 @@
-.boxes {
+.box {
     opacity: .80;
     padding: 50px;
     color: ivory;
@@ -19,7 +19,7 @@
 }
 
 @media(max-width: 900px) {
-    .boxes {
+    .box {
         min-width: 300px;
     }
 }

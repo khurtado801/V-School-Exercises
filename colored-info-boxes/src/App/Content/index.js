@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Boxes from "./Boxes";
+import Box from "./Box";
 import "./index.css";
 
 //constructor definition
@@ -77,8 +77,8 @@ function Content(props){
 
     return (
         <div className="box-wrapper">
-        {data.map((myModules) => {
-        return <Boxes {...myModules}></Boxes>
+        {data.map((myModule) => {
+        return <Box {...myModule}></Box>
         })}
         </div>
         )

@@ -1,27 +1,27 @@
-import React, { Component } from "react";
-import superheros from "./superheros.json";
-import SuperHero from "./SuperHero";
+import React, { Component } from 'react';
+import superheroes from './superheroes';
+import Superhero from './Superhero';
+import './index.css';
 
 class App extends Component {
     constructor(props) {
-        super();
-        this.state = {
-            superheros: superheros
-        }
-        this.display = this.display.bind(this);
+        super(props);
+        this.displayCatchPhrase = this.displayCatchPhrase.bind(this);
     }
-    display(i) {
-        alert(this.state.superheros[i].catchphrase);
+    displayCatchPhrase(str) {
+        alert(str);
     }
     render() {
-        let { superheros } = this.state;
         return (
-            <div>
-                {superheros.map((hero, index) => {
-                    return <SuperHero key= {index}{...hero} index={index} display={this.display} />
-                })}
-            </div>
-        )
+        <div className="app-wrapper">
+            {superheroes.map((superhero, index) => {
+                return (
+                        <Superhero displayCatchPhrase={this.displayCatchPhrase} {...superhero} key={index}></Superhero>
+                );
+            })}
+        </div>
+        );
+        
     }
 }
 

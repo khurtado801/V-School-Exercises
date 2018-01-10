@@ -5,7 +5,7 @@ import "./index.css";
 function App(props){
     
     return (
-        <div className="app-wrapper">
+        <div>
             <h1>Hello, World!</h1>
             <h2>Welcome to my React Colored Info Boxes.</h2>
             <Content></Content>
