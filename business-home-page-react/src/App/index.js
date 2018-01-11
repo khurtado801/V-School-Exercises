@@ -19,7 +19,8 @@ function App(props){
     return (
         <div>
 
-        <Nav links={links}></Nav>
+        {/* <Nav links={links}></Nav> */}
+        <Nav>links={links}</Nav>
             <Header></Header>
             <h1>Hello, World!</h1>
             <h2>Welcome to my Business homepage.</h2>

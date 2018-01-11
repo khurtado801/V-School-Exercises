@@ -1,0 +1,21 @@
+[{
+        "name": "Septic Cleanup",
+        "price": "950",
+        "description": "We all do it, some are just bigger than others."
+    },
+    {
+        "name": "Snaking",
+        "price": "500",
+        "description": "We all do it, some are just bigger than others."
+    },
+    {
+        "name": "Tree Digging",
+        "price": "5000",
+        "description": "We all do it, some are just bigger than others."
+    },
+    {
+        "name": "Drain Replacement",
+        "price": "150",
+        "description": "We all do it, some are just bigger than others."
+    }
+]
