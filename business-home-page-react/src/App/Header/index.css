@@ -1,0 +1,10 @@
+/* .head {
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+    background: rgb(54, 25, .80);
+    background: rgba(54, 25, 25, .40);
+} */
+
+head {
+    background-color: #2F2F2F;
+}
