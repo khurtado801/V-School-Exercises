@@ -1,13 +1,12 @@
-import React from 'react';
-import Form from "./Form";
+import React, {Component} from 'react'
+import NameList from "./NameList";
 
-function App(props) {
-    
+function App() {
     return (
-       <div>
-           <Form></Form>
-       </div>
+        <div>
+            <NameList></NameList>
+        </div>
     )
 }
 
-export default App;
+export default App
