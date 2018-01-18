@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Superman",
+        "catchphrase": "Up up and away!",
+        "imgUrl": "https://vignette.wikia.nocookie.net/superman/images/2/27/Superman-dcuo.jpg/revision/latest?cb=20110901025125"
+    },
+    {
+        "name": "Batman",
+        "catchphrase": "I'm Batman!",
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg"
+    },
+    {
+        "name": "Captain America",
+        "catchphrase": "Avengers assemble!",
+        "imgUrl": "http://www.screengeek.net/wp-content/uploads/2017/10/captain-america-chris-evans.jpg"
+    }
+]

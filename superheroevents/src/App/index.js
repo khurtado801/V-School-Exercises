@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import superheroes from './superheroes';
+import superheroes from './superheroes.json';
 import Superhero from './Superhero';
 import './index.css';
 
