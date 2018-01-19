@@ -5,16 +5,16 @@ function Card(props) {
     let vacationSpots = props.vacationSpots
     let seasonColors = {
         winter: {
-            backgroundColor: "#fbd24e"
+            backgroundColor: "#00BFFF"
         },
         spring: {
-            backgroundColor: "#9f0a28"
+            backgroundColor: "#F0FFF0"
         },
         summer: {
-            backgroundColor: "#3A5F0B"
+            backgroundColor: "#DC143C"
         },
         fall: {
-            backgroundColor: "#bae5fa"
+            backgroundColor: "#FAFAD2"
         }
     }
     return (
