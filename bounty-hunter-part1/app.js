@@ -12,7 +12,7 @@ let port = 8080;
 app.use(bodyParser.json());
 
 // Routes
-app.get("/bounties", (req, res) => {
+app.get("/bounty", (req, res) => {
     res.send(database);
 });
 
