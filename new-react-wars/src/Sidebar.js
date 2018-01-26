@@ -1,34 +1,52 @@
-import React, {Component} from "react";
-import {Link} from "react-router-dom";
-import axios from "axios";
+import React, { Component } from 'react';
+import axios from "axios"
 
-class Sidebar extends Component {
+
+class Artists extends Component {
     constructor() {
         super();
         this.state = {
-            people: []
-        }
+        person: {}
+    }
 }
 
 componentDidMount() {
-    axios.get("https://swapi.co/api/people/")
+    axios.get(`http://musicbrainz.org/ws/2/cdstub/?query=artist:Beastie%Boys&fmt=json/${this.props.match.params.id}`)
     .then(response => {
         this.setState({
-            people: response.data.results
-        });
-    });
+            person: response.data
+        })
+        console.log(response.data);
+    })
 }
+
+componentWillReceiveProps(nextProps) {
+    if (nextProps.match.params.id !== this.props.match.params.id) {
+        axios.get(`http://musicbrainz.org/ws/2/cdstub/?query=artist:Beastie%Boys&fmt=json/${nextProps.match.params.id}`)
+        .then(response => {
+            this.setState({
+                person: response.data
+            })
+        }) 
+    }
+}
+
 
 render() {
-    const peopleList = this.state.people.map((person, index) => 
-    <Link style={{display: "block"}} to={`/person/${index + 1}`} key={index + person.name}>{person.name}</Link>
-    )
+    console.log(this.state.person.title);
     return (
-    <div>
-        {peopleList}
-    </div>
-    )
-}
+            <div>
+                <h1 style={{color: "green"}}>{this.state.person.name}</h1>
+                <h3>Eye Color: {this.state.person.eye_color}</h3>
+                <h3>Mass: {this.state.person.mass}</h3>
+                <h3>Height: {this.state.person.height}</h3>
+                <h3>Hair Color: {this.state.person.hair_color}</h3>
+                <h3>Skin Color: {this.state.person.skin_color}</h3>
+                <h3>Birth Year: {this.state.person.birth_year}</h3>
+                <h3>Gender: {this.state.person.gender}</h3>
+            </div>
+        )
+    }
 }
 
-export default Sidebar
+export default Artists;

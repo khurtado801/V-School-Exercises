@@ -2,13 +2,14 @@ import React from 'react'
 
 function Character(props) {
     // Destructure the character coming in through props
-    let {skin_color, name} = props;
+    let {artist, title} = props;
     return (
         <div>
-            <h3>{name}</h3>
-            <p>{skin_color}</p>
+            <h3>{title}</h3>
+            <p>{artist}</p>
         </div>
     )
 }
 
 export default Character;
+

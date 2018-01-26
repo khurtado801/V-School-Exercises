@@ -6,10 +6,11 @@ function App(props){
     
     return (
         <div>
-            <h1>Hello, World!</h1>
-            <h2>Welcome to my React Colored Info Boxes.</h2>
+            <div className="title-wrapper">
+                <h1>Hello, World!</h1>
+                <h2>Welcome to my React Colored Info Boxes.</h2>
+            </div>
             <Content></Content>
-
         </div>
     )
 }

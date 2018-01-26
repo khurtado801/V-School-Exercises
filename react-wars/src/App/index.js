@@ -2,7 +2,7 @@ import React from 'react'
 import {Switch, Route} from "react-router-dom";
 import Home from "../App/pages/Home";
 import Sidebar from "../App/Sidebar";
-import Characters from "../App/Charactes";
+import Characters from "../App/Characters";
 
 
 function App(props) {

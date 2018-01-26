@@ -1,5 +1,7 @@
 import React from "react";
-import "./Header.css";
+import "../Navbar/index";
+
+import 
 
 function Header({brand, slogan}){
     return ( 
