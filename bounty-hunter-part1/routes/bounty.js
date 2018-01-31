@@ -1,105 +1,60 @@
 const express = require("express");
-const trackRouter = express.Router();
+const bountyRoute = express.Router();
+const bountyModel = require('../models/bounty.js');
 
-let bounties = require("../database.js");
+var uuid = require('uuid');
+// const database = require('../database.js');
 
-// When a request comes
+// Define route
 bountyRoute.route("/")
-// Handle requests to /tracsk here
-    // if its get
-.get("/bounties", (req, res) => {
-    let query = req.query;
-    console.log(req.query)
-    let filteredBounties = bounties.filter((bounty) => {
-        let found = true;;
-        for(let key in query) {
-            if(bounty[key] != query[key]) {
-                found = false;
-                break
+    //handle all requests to /bounty here
+    //if its a GET
+    .get((req, res) => {
+        // After 'find', we can tell it what object to look for
+        // Req.query allows to use to specify a query at GET
+        bountyModel.find(req.query, (err, foundBounty) => {
+            if(err){
+                console.error(err);
+            } else {
+                res.send(foundBounty)
             }
-        }
-        return found
-    })
-    res.send(filteredBounties);
-})
-.post("/bounties", (req, res) => {
-    let newBounty = req.body;
-    newBounty._id = uuid();
-    bounties.push(newBounty)
-    res.send({
-        msg: "Data added successfully",
-        data: newBounty
-    })
-});
-
-bountyRoute.route("/bounty/:id")
-.get((req, res) => {
-    let {id} = req.params;
-    let found = false;
-    let foundBounty;
-    for (let i =0; i < bounties.length; i++) {
-        if(bounties[i]._id === id) {
-            found = true;
-            foundBounty = bounties[i];
-            break;
-        }
-    }
-    if(found){
-        res.send({
-            msg: `Item ${id} was found!`,
-            data: foundBounty
-        })
-    } else {
-        res.send({
-            msg: `Item ${id} not found!`
-        })
-    }
-})
-
-app.delete("/bounties/:id", (req, res) => {
-    let {id} = req.params;
-    let found = false;
-
-    track = bounties.filter((bounty) => track._id !== id)
-    for(let i = 0; i < bounties.length; i++) {
-        if(tracks[i]._id === id) {
-            bounties.splice(i);
-            found = true;
-            break;
-        }
-    }
-    if(found) {
-        res.send({
-            msg: `Item ${id} was successfully removed!`
         });
-    } else {
-        res.send({
-            msg: `Item ${id} was not found!`
-        })
-    }
-});
-
-app.put("/bounties/:id", (req, res) => {
-    let {id} = req.params;
-    let updatedBounty = req.body;
-    let found = false;
-    for (let i = 0; i < bounties.length; i++) {
-        if(bounties[i]._id === id) {
-            // Combine the following objects
-            bounties[i] = Object.assign(bounties[i], updatedBounty);
-            updatedBounty = bounties[i];
-            found = true;
-            break;
-        }
-    }
-    if(found) {
-        res.send({
-            msg: `Item ${id} was updated!`,
-            data: updatedBounty
+    })
+    
+    // If its a POST
+    .post((req, res) => {
+        // Take body of request and turn it into a ismModel instance and save to database
+        // Create a new resource from our blueprint
+        let newBounty = new bountyModel(req.body);
+        // Callback function to display err or saved resource to databasse
+        newBounty.save((err, savedBounty) => {
+            if(err){
+                console.error(err);
+            } else {
+                res.send({
+                    msg: "Data added successfully",
+                    data: newBounty
+                });
+            } 
         });
-    } else {
-        res.send({
-            msg: `Item ${id} was not updated!`
-        })
-    }
-})
+    });
+
+bountyRoute.route("/:id/")
+    .get((req, res) => {
+        let { id } = req.params;
+        // let found = false;
+        // let foundBounty;
+        // Tells mongoose what to find and where to find it
+        bountyModel.findById(id, (err, foundBounty) => {
+            if(err){
+                console.error(err);
+            } else {
+                res.send({
+                    msg: `Item ${id} was found!`,
+                    data: foundBounty
+                })
+            }
+        });
+    })
+    
+module.exports = bountyRoute;
